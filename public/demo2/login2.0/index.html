@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/modernizr.js"></script>
+</head>
+<body>
+<div class="bg-back"></div>
+	<div style="z-index: 10000;position: absolute;top: 0;left:calc(50% - 244px);" class="cd-user-modal is-visible">
+		<div class="cd-user-modal-container">
+			<div id="cd-login" class="is-visible is-selected">
+				<br><br>
+				<form class="cd-form " action="http://www.google.com/"> <!- the page need to jump to ->
+
+					<p class="fieldset">
+						<label class="image-replace cd-username" for="signup-username">username</label>
+						<input class="full-width has-padding has-border" id="signin-email" type="text" placeholder="username">
+					</p>
+					<p class="fieldset">
+						<label class="image-replace cd-password" for="signup-password">password</label>
+						<input class="full-width has-padding has-border" id="signup-password" type="text"  placeholder="password">
+					</p>
+					<p class="fieldset">
+						<input style="width:49%" type="submit" name="submit" value="login" >
+						<input style="width:49%" type="submit" name="register" value="register">
+					</p>
+				</form>
+			</div>
+		</div>
+		<p style="position: absolute;bottom: 6em;text-align: center;width: 100%;">
+			-BLUEBOX provides technical support-
+		</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/modernizr.js"></script>
+</head>
+<body>
+<div class="bg-back"></div>
+	<div style="z-index: 10000;
+    position: absolute;
+    top: 0;
+    left:calc(50% - 244px);
+		"  class="cd-user-modal is-visible">
+		<div class="cd-user-modal-container">
+			<ul class="cd-switcher">
+				<li><a href="#0" class="selected">Login</a></li>
+				<li><a href="#0">Registered</a></li>
+			</ul>
+			<div id="cd-login" class="is-visible is-selected">
+				<form class="cd-form ">
+					<p class="fieldset">
+						<label class="image-replace cd-username" for="signup-username">username</label>
+						<input class="full-width has-padding has-border" id="signin-email" type="phone" placeholder="username">
+						<span class="cd-error-message">Wrong!</span>
+					</p>
+					<p class="fieldset">
+						<label class="image-replace cd-password" for="signup-password">password</label>
+						<input class="full-width has-padding has-border" id="signup-password" type="text"  placeholder="password">
+						<span class="cd-error-message">Wrong</span>
+					</p>
+					<p class="fieldset">
+						<input class="full-width" type="submit" value="Submit">
+					</p>
+				</form>
+			</div>
+			<div id="cd-signup">
+				<form class="cd-form">
+					<p class="fieldset">
+						<label class="image-replace cd-username" for="signup-username">username</label>
+						<input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="username">
+						<span class="cd-error-message">Wrong!</span>
+					</p>
+<p class="fieldset">
+						<label class="image-replace cd-password" for="signin-password">password</label>
+						<input class="full-width has-padding has-border" id="signin-password" type="text"  placeholder="password">
+						<span class="cd-error-message">Wrong</span>
+
+					</p>
+					<p class="fieldset">
+						<input class="full-width has-padding" type="submit" value="Submit">
+					</p>
+				</form>
+			</div>
+		</div>
+		<p style="
+		position: absolute;
+    bottom: 6em;
+    text-align: center;
+    width: 100%;"> -BLUEBOX provides technical support- </p>
+	</div>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

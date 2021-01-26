@@ -1,0 +1,13 @@
+<h1 class="text-center mb-3">Database Management</h1>
+<h3 class="text-center mb-3">Demo 1</h3>
+<a href="/new" class="btn btn-secondary btn-block">Insert New Text Data</a>
+<h4>Server Test Data</h4>
+    <ul class="list-group">
+        {{#each textData}}
+            <li class ="list-group-item">{{this.content}}</li>
+            <form method="POST" action="/demon1/{{_id}}?_method=DELETE">
+                 <button type="submit">Delete</button>
+            </form>
+        {{/each}}
+
+    </ul>
